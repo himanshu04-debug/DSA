@@ -5,7 +5,7 @@ class Solution {
         int i = 0; // index of last unique element
 
         for (int j = 1; j < nums.length; j++) {
-            if (nums[j] != nums[i]) {
+            if (nums[i] != nums[j]) {
                 
                 nums[i+1] = nums[j];
                 i++;
